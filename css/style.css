@@ -143,55 +143,116 @@ Wrok css start
   padding: 16px 0px;
   width: 405px;
 }
-.work a{
-  color: #2405F2;
+.work a {
+  color: #2405f2;
   font-size: 18px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  
 }
-.common-ani{
-    position: relative;
+.common-ani {
+  position: relative;
 }
 .common-icon {
-    position: absolute;
-    top: 5px;
-    right: -34px;
-    transition: .4s;
+  position: absolute;
+  top: 5px;
+  right: -34px;
+  transition: 0.4s;
 }
-.common-ani:hover .common-icon{
-     right: -54px;
-
+.common-ani:hover .common-icon {
+  right: -54px;
 }
-.work .work-box{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.work .work-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.work .item{
-    width: 48%;
-    
+.work .item {
+  width: 48%;
 }
-.work .item h4{
-    color: #282938;
+.work .item h4 {
+  color: #282938;
   font-size: 32px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  padding-top:16px ;
+  padding-top: 16px;
   padding-bottom: 8px;
-  
-
 }
-.work .item p{
-    color: rgba(40, 41, 56,0.70);
+.work .item p {
+  color: rgba(40, 41, 56, 0.7);
   font-size: 15px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   width: 303px;
   padding: 0px !important;
-  
-
 }
 /* ===================
 Wrok css end
+====================== */
+/* ===================
+Project css start
+====================== */
+.project {
+  padding: 128px 0px;
+}
+.project .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.project h2 {
+  color: #282938;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.project a {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.project img {
+  width: 100%;
+}
+.project img:nth-child(2) {
+  margin-top: 26px;
+}
+.overly-ani {
+  position: relative;
+  overflow: hidden;
+}
+.overly-ani .overly {
+  width: 52%;
+  height: 100%;
+  background-image: linear-gradient(rgba(28, 30, 83,0.42), #1C1E53);
+  position: absolute;
+  top: 0%;
+  left: -52%;
+  transition: 0.4s;
+  padding-top: 312px;
+  padding-left: 48px;
+  padding-right: 36px;
+}
+.overly-ani:hover .overly {
+  left: 0%;
+}
+.overly-ani .overly h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.overly-ani .overly p {
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+.overly-ani .overly a{
+    color: #fcd980;
+}
+/* ===================
+Project css end
 ====================== */
