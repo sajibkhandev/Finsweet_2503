@@ -444,6 +444,81 @@ FAQ css start
 FAQ css end
 ====================== */
 /* ===================
+contact css start
+====================== */
+.contact img{
+  width: 100%;
+}
+.contact-content{
+  background: #1C1E53;
+  width: 100%;
+  padding-top: 107px;
+  padding-left: 96px;
+  padding-right: 96px;
+}
+.contact .row{
+      --bs-gutter-x: 0rem !important;
+}
+.contact h4{
+      color: #fff;
+  font-size: 32px;
+  font-weight:500;
+  font-family: "Poppins", sans-serif;
+  
+}
+.contact p{
+    color: #F4F6FC;
+  font-size: 16px;
+  font-weight:500;
+  font-family: "Poppins", sans-serif;
+  padding-top: 17px;
+  padding-bottom: 40px;
+  
+}
+.contact input{
+  width: 100%;
+  margin: 8px 0px;
+  padding: 18px 32px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
+  color: #F4F6FC;
+  font-size: 16px;
+  font-weight:500;
+  font-family: "Poppins", sans-serif;
+  
+
+}
+.contact input::placeholder{
+  color: rgba(255, 255, 255, 0.22);
+  font-size: 16px;
+  font-weight:500;
+  font-family: "Poppins", sans-serif;
+}
+.contact button{
+  background: #FCD980;
+  width: 100%;
+  padding: 16px 0px;
+  border: 0px;
+  border-radius: 41px;
+  margin-top: 26px;
+  margin-bottom: 33px;
+   color: #1B1C2B;
+  font-size: 16px;
+  font-weight:500;
+  font-family: "Poppins", sans-serif;
+
+}
+.contact .common-button-ani{
+  display: inline-block;
+  margin-left: 150px;
+  margin-bottom: 35px;
+  
+}
+/* ===================
+contact css end
+====================== */
+/* ===================
 blog css start
 ====================== */
 .blog{
