@@ -377,6 +377,73 @@ Cliet css start
 Cliet css end
 ====================== */
 /* ===================
+FAQ css start
+====================== */
+.faq{
+  padding: 128px 0px;
+
+}
+.faq h3{
+   color: #282938;
+  font-size: 38px;
+  font-weight:600;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 16px;
+  
+  
+}
+.faq a{
+  color: blue;
+  font-size: 18px;
+  font-weight:500;
+  font-family: "Poppins", sans-serif;
+
+
+}
+.accordion-header{
+  padding: 15px 0px;
+}
+.accordion-button{
+  color: #282938;
+  font-size: 24px;
+  font-weight:500;
+  font-family: "Poppins", sans-serif;
+  
+  
+}
+.accordion-button span{
+  color: #2405F2;
+  margin-right: 59px;
+  
+  
+  
+}
+.accordion-body{
+  margin: 0px 84px;
+}
+
+.accordion-button{
+  background: transparent !important;
+
+}
+.accordion-item{
+  border: 0px !important;
+}
+.accordion-button::after{
+  background: 0 !important;
+  content: "+";
+  transform: translateY(-30%) !important;
+}
+.accordion-button:not(.collapsed)::after{
+  background: 0 !important;
+  content: "x";
+  transform: translateY(-30%) !important;
+
+}
+/* ===================
+FAQ css end
+====================== */
+/* ===================
 blog css start
 ====================== */
 .blog{
