@@ -1,0 +1,107 @@
+@media (min-width:320px) and (max-width:575.99px){
+    /* Navber part start */
+    .navbar-brand img{
+        width: 85%;
+    }
+    .navbar-toggler{
+        border: 0px;
+        margin-right: -20px;
+        
+    }
+    .navbar-toggler:focus{
+        box-shadow:0px 0px 0px transparent !important
+
+    }
+    .fa-solid{
+        color: white;
+        font-size: 16px;
+    }
+    .navbar-collapse{
+        background: #3b0888f2;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .navbar-nav{
+	
+	padding: 20px 0px;
+	align-items: center;
+}
+   .nav-item{
+    padding: 10px 0px;
+}
+.navber-button{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.navbar .nav-item:hover .nav-link {
+   color: #bbbbcb;
+}
+.navbar .navber-button:hover {
+  background: transparent;
+  border-color: rgba(244, 246, 252, 0.2);
+   color: #fff;
+}
+.navbar .navber-button {
+	padding: 14px 32px;
+	font-size: 14px;
+    margin-left: 0px;
+	
+}
+.button-box{
+    text-align: center;
+}
+/* Navber part end */
+/* Banner part start */
+
+/* Banner part end */
+.banner {
+	padding-top: 95px;
+	padding-bottom: 123px;
+}
+.banner h1 {
+	font-size: 32px;
+	width: auto;
+	line-height: 57px;
+}
+.banner p {
+	font-size: 14px;
+	width: auto;
+	padding-top: 8px;
+	padding-bottom: 29px;
+}
+.banner .common-button {
+	padding: 12px 20px;
+	font-size: 14px;
+	
+}
+.banner .common-button-ani {
+	font-size: 14px;
+	
+	margin-left: 34px;
+	
+}
+
+.banner .common-button:hover {
+  border-color: transparent;
+  background: #fcd980;
+ color: #000;
+}
+.banner .common-button-ani i {
+ 
+  visibility: visible;
+  opacity: 1;
+}
+.banner .common-button-ani:hover i {
+  left: 94px;
+
+}
+.image-box{
+    text-align: center;
+    margin-top: 60px;
+}
+.image-box img{
+    width: 90%;
+
+}
+
+}
